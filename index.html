@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>elearnmarkets Homepage Clone</title>
+</head>
+
+<body>
+  <section id="header" class="bg-light">
+    <div class="container">
+    <nav class="navbar navbar-expand-xl navbar-light fw-bold bg-light ">
+      <div class="container-xl my-2">
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <span><img src="./Images/logo2.svg" alt="logo" /></span>
+        </a>
+        </div>
+  
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown me-5 list-unstyled">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Explore
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Comprehensive Courses</a>
+                </li>
+                <li><a class="dropdown-item" href="#">999 Courses</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Fundamental Analysis</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Derivatives</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Technical Analysis</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Superheroes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Language</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Free Resources</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Other Offerings</a>
+                </li>
+              </ul>
+            </li>
+            <form class="d-flex">
+              <input class="form-control" type="search" style="width: 25vw" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline" type="submit">
+                <i class="fa-solid fa-magnifying-glass" style="color: #8a8e93"></i>
+              </button>
+            </form>
+            <li class="nav-item me-4">
+              <a class="nav-link text-dark" aria-current="page" href="#">Courses</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-dark" href="#">Webinars</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link d-block text-dark" href="#" style="width: 150px">
+                <i class="fa-regular fa-circle-dot" style="color: #3e7dea"></i>
+                Superheroes
+              </a>
+            </li>
+            <button class="btn bg-primary d-flex justify-content-evenly align-items-center" type="submit"
+              style="width: 110px">
+              <a href="#" class="text-white text-decoration-none">Login</a>
+              <i class="fa-solid fa-lock" style="color: #d5d8dd"></i>
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- <nav class="navbar fixed-top navbar-expand-xl navbar-light fw-bold bg-light">
+    <div class="container-xl my-2">
+      <div>
+        <a class="navbar-brand" href="#">
+          <span><img src="./Images/logo2.svg" alt="logo" /></span>
+        </a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown me-5 list-unstyled">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Explore
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Comprehensive Courses</a>
+              </li>
+              <li><a class="dropdown-item" href="#">999 Courses</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Fundamental Analysis</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Derivatives</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Technical Analysis</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Superheroes</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Language</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Free Resources</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Other Offerings</a>
+              </li>
+            </ul>
+          </li>
+          <form class="d-flex">
+            <input class="form-control" type="search" style="width: 25vw" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline" type="submit">
+              <i class="fa-solid fa-magnifying-glass" style="color: #8a8e93"></i>
+            </button>
+          </form>
+          <li class="nav-item me-4">
+            <a class="nav-link text-dark" aria-current="page" href="#">Courses</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link text-dark" href="#">Webinars</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link d-block text-dark" href="#" style="width: 150px">
+              <i class="fa-regular fa-circle-dot" style="color: #3e7dea"></i>
+              Superheroes
+            </a>
+          </li>
+          <button class="btn bg-primary d-flex justify-content-evenly align-items-center" type="submit"
+            style="width: 110px">
+            <a href="#" class="text-white text-decoration-none">Login</a>
+            <i class="fa-solid fa-lock" style="color: #d5d8dd"></i>
+          </button>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+</section>
+  
+  
+  <section id="Banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col px-0">
+          <img src="./Images/Banner.webp" alt="Banner" class="img-fluid"/>
+        </div>  
+        </div>
+      </div>
+      
+  </section>
+
+  <section class="py-4 bg-dark" id="learning_path">
+    <div class="container-fluid">
+      <div class="d-lg-none text-center">
+        <p class="d-inline text-white m-0">
+          Choose what's the best for you! Get started with our curated
+        </p>
+        <a class="d-inline" href="#get-set-learn">learning paths</a>
+      </div>
+
+      <div class="d-none d-lg-flex align-items-center justify-content-evenly">
+        <div class="text-center">
+          <p class="lead text-white fw-bold m-0">
+            Choose what's the best for you! Get started with our curated
+            learning paths
+          </p>
+        </div>
+        <div class="d-none d-lg-inline">
+          <button class="btn btn-danger">
+            <a href="#get-set-learn" class="text-decoration-none text-white me-2">
+              START LEARNING
+            </a>
+            <a href="#get-set-learn" class="text-decoration-none text-white me-1">
+              <i class="fa-solid fa-angles-down"></i>
+            </a>
+            
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="learnwithexperts">
+    <div class="container">
+      <div class="text-center mt-5">
+        <h1>Learn from Stock Market Superheroes</h1>
+        <p style="font-size: 1.15rem">
+          Seek the superhero within you with over more than 100+ market
+          experts.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center my-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <div>
+                  <img src="./Images/expert1.webp" class="img-fluid" alt="E1" />
+                </div>
+                <div>
+                  <h4 class="mt-2 mb-0">Premal Parekh</h4>
+                  <small class="text-danger">18 Years of Experience</small>
+                  <p>Superpower: Relative Strenth Indicators (RS)</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./Images/expert2.webp" class="img-fluid" alt="E2" />
+                <div>
+                  <h4 class="mt-2 mb-0">Vivek Gadodia</h4>
+                  <small class="text-danger">10 Years of Experience</small>
+                  <p>Superpower: Algo Trading Strategies</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./Images/expert3.webp" class="img-fluid" alt="E3" />
+                <div>
+                  <h4 class="mt-2 mb-0">Abhijit Paul</h4>
+                  <small class="text-danger">18 Years of Experience</small>
+                  <p>Superpower: Momentum Strategy</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="./Images/expert4.webp" class="img-fluid" alt="E4" />
+                <div>
+                  <h4 class="mt-2 mb-0">Chetan Panchamia</h4>
+                  <small class="text-danger">20 Years of Experience</small>
+                  <p>Superpower: Option Trading Strategies</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <button class="btn btn-danger mt-4 mb-5 py-2">
+              <a href="#" class="text-decoration-none text-white p-4">VIEW ALL EXPERTS</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="webnumbers">
+    <div class="container px-4">
+      <div class="row row-cols-lg-4 row-cols-md-2 justify-content-center">
+        <div class="col mb-5">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 ps-2 pe-0">
+              <img src="./Images/Webno.1.webp" alt="web1">
+              <div class="d-flex flex-column ms-2 ps-1 text-lg-start">
+                <h4 class="fw-bold card-title">2.7M+</h4>
+                <p class="card-text text-warning fs-6"> Total Learners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 ps-2 pe-0">
+              <img src="./Images/Webno.2.webp" alt="web2">
+              <div class="d-flex flex-column ms-2 ps-1 text-lg-start">
+                <h4 class="fw-bold card-title">100+</h4>
+                <p class="card-text text-warning fs-6"> Total Courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 ps-2 pe-0">
+              <img src="./Images/Webno.3.webp" alt="web3">
+              <div class="d-flex flex-column ms-2 ps-1 text-lg-start">
+                <h4 class="fw-bold card-title">300+</h4>
+                <p class="card-text text-warning fs-6"> Total Webinars</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 ps-2 pe-0">
+              <img src="./Images/Webno.4.webp" alt="web4">
+              <div class="d-flex flex-column ms-2 ps-1 text-lg-start">
+                <h4 class="fw-bold card-title">4.8/5</h4>
+                <p class="card-text text-warning fs-6">App Rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row justify-content-center">
+        <div class="col-6 col-lg-3 mt-3">
+          <div class="rounded-pill bg-light d-flex pt-3 ps-3 pb-2 pe-1">
+            <img src="./Images/Webno.1.webp" alt="web1" class="me-3" />
+            <div class="d-flex flex-column">
+              <h4>2.7M+</h4>
+              <p >Total Learners</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3 mt-3">
+          <div class="rounded-pill bg-light d-flex pt-3 ps-3 pb-2">
+            <img src="./Images/Webno.2.webp" alt="web1" class="me-3" />
+            <div class="d-flex flex-column">
+              <h4>100+</h4>
+              <p>Total Learners</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-3">
+          <div class="rounded-pill bg-light d-flex pt-3 ps-3 pb-2">
+            <img src="./Images/Webno.3.webp" alt="web1" class="me-3" />
+            <div class="d-flex flex-column">
+              <h4>300+</h4>
+              <p>Total Webinars</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-3">
+          <div class="rounded-pill bg-light d-flex pt-3 ps-3 pb-2">
+            <img src="./Images/Webno.4.webp" alt="web1" class="me-3" />
+            <div class="d-flex flex-column">
+              <h4>4.5/5</h4>
+              <p>App Rating</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="explore-categories" class="my-5 border-top border-warning border-5" style="background-color: #062d69">
+    <div class="container py-5 px-5">
+      <div class="text-center text-white mb-5">
+        <h1>Explore Categories</h1>
+        <p>
+          Discover new skills, strategies, and insights that can help you
+          achieve your financial goals.
+        </p>
+      </div>
+      <div class="row my-4 justify-content-center">
+        <div class="col-md-6 col-lg-4 mt-4 mb-2">
+          <div class=" card text-start ps-2 pe-2 pt-2 pb-2 text-white border border-primary"
+            style="background-color: #051f4c">
+            <a href="#" class="text-decoration-none text-white">
+              <div class="card-body px-1">
+                <img src="./Images/category1-removebg-preview.png" alt="category1" class="mb-2" style="width: 50px;" />
+                <div class="card-title">
+                  <h5 class="mb-3 mt-1">
+                    Technical Analysis
+                    <i class="fa-solid fa-arrow-right-long" style="color: #4b82e2"></i>
+                  </h5>
+                  <p class="text-muted text-wrap card-text">
+                    Understand chart patterns, price movements and market trends
+                    better
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mt-4 mb-2">
+          <div class=" card text-start ps-2 pe-2 pt-1 pb-1 text-white border border-primary"
+            style="background-color: #051f4c">
+            <a href="#" class="text-decoration-none text-white">
+              <div class="card-body px-2 pt-0">
+                <img src="./Images/category2-removebg-preview.png" alt="category1" class="mb-2" style="width: 70px;" />
+                <div class="card-title">
+                  <h5 class="mb-3">
+                    Fundamental Analysis
+                    <i class="fa-solid fa-arrow-right-long" style="color: #4b82e2"></i>
+                  </h5>
+                  <p class="text-muted text-wrap card-text">
+                    Grasp the method of assessing the intrinstic value of a
+                    stock
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mt-4 mb-2">
+          <div class=" card text-start ps-2 pe-2 pt-1 pb-2 text-white border border-primary"
+            style="background-color: #051f4c">
+            <a href="#" class="text-decoration-none text-white">
+              <div class="card-body ps-1 pe-0 pt-1">
+                <img src="./Images/category3-removebg-preview.png" alt="category1" class="mb-2" style="width: 70px;" />
+                <div class="card-title">
+                  <h5 class="mb-3">
+                    Derivatives
+                    <i class="fa-solid fa-arrow-right-long" style="color: #4b82e2"></i>
+                  </h5>
+                  <p class="text-muted text-wrap card-text">
+                    Make the most out of the leveraging benefit provided by
+                    derivatives market
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="explore-programs">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-8">
+          <div>
+            <p class="text-warning fw-bold" style="font-size: 1.18rem">
+              Equity. Currency. Commodity.
+            </p>
+            <h1 class="fw-bold">Master the art of Multi-Asset Trading</h1>
+            <p>
+              India's most comprehensive course on trading from mentors with
+              extensive experience
+            </p>
+          </div>
+          <div class="my-5">
+            <button class="btn btn-danger p-3">
+              EXPLORE PROGRAM DETAILS
+            </button>
+          </div>
+        </div>
+        <img src="./Images/explore programs.webp" alt="explore" style="width: 80%;" />
+      </div>
+    </div>
+  </section>
+
+  <section id="get-set-learn" class="mb-5 border-top border-warning border-5" style="background-color: #062d69">
+    <div class="container my-5">
+      <div class="text-center text-white">
+        <h1 class="mb-3">Get. Set. Learn.</h1>
+        <p class="mb-1">
+          Begin your financial learning with our specially curated journeys.
+        </p>
+        <p>Click on the level tab below and get started.</p>
+      </div>
+
+      <ul class="nav nav-pills my-5 d-flex justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="beginner-tab" data-bs-toggle="pill" data-bs-target="#beginner"
+            type="button" role="tab" aria-controls="beginner" aria-selected="true">
+            Beginner
+          </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="trader-tab" data-bs-toggle="pill" data-bs-target="#trader" type="button"
+            role="tab" aria-controls="trader" aria-selected="false">
+            Trader
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="investor-tab" data-bs-toggle="pill" data-bs-target="#investor" type="button"
+            role="tab" aria-controls="Investor" aria-selected="false">
+            Investor
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content pb-5 px-5" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="beginner" role="tabpanel" aria-labelledby="beginner-tab">
+          <div class="row my-3 mx-0">
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Basic Learning</h5>
+                      <p class="card-text mt-4"  style="font-size: 14.7px;">
+                        Take a deep dive into text based content to learn
+                        about basics of finance.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View ELM School
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Short Course</h5>
+                      <p class="card-text mt-4"  style="font-size: 14px;">
+                        Self Paced short course on Capital Markets, Fundamental Analysis & Technical Analysis.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Courses
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Certification Course</h5>
+                      <p class="card-text mt-4"  style="font-size: 14px;">
+                        Live Interactive online classes to equip the students with necessary stock know how.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Courses
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Continuous learning</h5>
+                      <p class="card-text mt-4" style="font-size: 14px;">
+                        Read our latest blogs to read your knowledge about the markets updated.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Blogs
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="trader" role="tabpanel" aria-labelledby="trader-tab">
+          <div class="row my-3 mx-0">
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Short Course</h5>
+                      <p class="card-text mt-4"  style="font-size: 14px;">
+                        Self Paced short course on Capital Markets, Fundamental Analysis & Technical Analysis.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Courses
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Mentorship</h5>
+                      <p class="card-text mt-4" style="font-size: 14px;">
+                        Special hand holding by market experts, to help you achieve success in trading.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View TMP
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+           <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-3">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 16px;">Expert-led-training</h5>
+                      <p class="card-text mt-4"  style="font-size: 14.4px;">
+                        Specialized micro modules to help you learn various trading strategies.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Webinars
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Collaboration</h5>
+                      <p class="card-text mt-4 mb-3"  style="font-size: 14px;">
+                        Get new ideas to trade from Expert Analysts and like minded people.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          Stockedge Club
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="investor" role="tabpanel" aria-labelledby="investor-tab">
+          <div class="row my-3 mx-0">
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Short Course</h5>
+                      <p class="card-text mt-4"  style="font-size: 14px;">
+                        Self Paced short course on Capital Markets, Fundamental Analysis & Technical Analysis.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Courses
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-3">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 16px;">Expert-led-training</h5>
+                      <p class="card-text mt-4"  style="font-size: 14.4px;">
+                        Specialized micro modules to help you learn various trading strategies.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Webinars
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Analyze Stocks</h5>
+                      <p class="card-text mt-4"  style="font-size: 14px;">
+                        Conduct a 360 degree analysis of a stock and find various investment themes and ideas.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          View Stockedge
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3 mb-5 p-0 d-flex justify-content-center">
+              <div class="card_wrapper cw-85">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="card border border-primary text-center" style="background-color: #062d69">
+                    <div class="card-body px-2">
+                      <h5 class="card-title mt-5 fw-bold" style="font-size: 17px;">Collaboration</h5>
+                      <p class="card-text mt-4 mb-3"  style="font-size: 14px;">
+                        Get new ideas to trade from Expert Analysts and like minded people.
+                      </p>
+                      <div>
+                        <a href="#" class="btn btn-primary rounded-pill text-decoration-none mt-5 mb-4 ps-3 pe-2 py-2 fw-light">
+                          Stockedge Club
+                          <i class="fa-solid fa-angles-right" style="color: #023eca"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="elm-school">
+    <div class="container ">
+      <div class="text-center">
+        <p class="text-warning fw-bold lead">New to Stock Markets?</p>
+        <h1>Get Started For Free With ELM School
+        </h1>
+        <P class="mb-5 fw-light">Choose from our popular categories and start reading today.
+        </P>
+      </div>
+
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center px-5">
+        <div class="col mb-5">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 pe-0">
+              <img src="./Images/elm1.webp" alt="elm1">
+              <div class="d-flex flex-column ms-4 text-center text-lg-start">
+                <h6 class="fw-bold card-title">Book Summary</h6>
+                <p class="card-text text-warning fs-6"> 37 Modules</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 pe-0">
+              <img src="./Images/elm2.webp" alt="elm1">
+              <div class="d-flex flex-column ms-4 text-center text-lg-start">
+                <h6 class="fw-bold card-title">Book Summary</h6>
+                <p class="card-text text-warning fs-6"> 13 Modules</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col mb-5 ">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 pe-0">
+              <img src="./Images/elm3.webp" alt="elm1">
+              <div class="d-flex flex-column ms-4 text-center text-lg-start">
+                <h6 class="fw-bold card-title">Book Summary</h6>
+                <p class="card-text text-warning fs-6"> 10 Modules</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-5 ">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 pe-0">
+              <img src="./Images/elm4.webp" alt="elm1">
+              <div class="d-flex flex-column ms-4 text-center text-lg-start">
+                <h6 class="fw-bold card-title">Book Summary</h6>
+                <p class="card-text text-warning fs-6"> 8 Modules</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-5">
+          <div class="card rounded-pill">
+            <div class="card-body d-flex py-2 pe-0">
+              <img src="./Images/elm5.webp" alt="elm1">
+              <div class="d-flex flex-column ms-4 text-center text-lg-start">
+                <h6 class="fw-bold card-title">Book Summary</h6>
+                <p class="card-text text-warning fs-6"> 6 Modules</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-danger my-5 py-3 px-4">VIEW ALL CATEGORIES</button>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="expert-instructors" class=" mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col d-none d-md-block text-center mx-2">
+          <div>
+            <img src="./Images/expert advice.webp" alt="Expert Instructors" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="success-stories" class="pt-5">
+    <div class="container px-5 mt-5">
+      <div class="Heading text-center text-md-start mx-5">
+        <h1>Success Stories</h1>
+        <div class="container px-0">
+          <div class="row">
+            <div class="col-lg-5 fw-light">
+              <p class="pb-2">Discover what our students have to say about their learning experience and why they trust
+                our platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-3 px-5">
+        <div class="col-lg-4 col-md-6" style="font-size: 15px;">
+          <div class="card border-success mb-5">
+            <div class="card-body">
+              <p class="card-text border-primary border-bottom py-2 fst-italic fw-light">“ This ELM course was well
+                thought out and
+                executed. My fondness for Options grew multifold after the course, and I have successfully applied my
+                knowledge in the market. I want to thank Chetan Sir for explaining every topic so beautifully. I would
+                also like to sincerely thank Sneha Ma'am for clearing up my concerns.“</p>
+              <div class="card-bottom position-relative pt-3">
+                <p class="mb-0 w-50">Gunjan Soumitra Lahiri</p>
+                <span class="stars position-absolute top-0 end-0 mt-4">
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                </span>
+                <a href="#" class="text-decoration-none text-dark ">
+                  <p style="font-size: 12px;" class="pt-1">
+                    Online Options Strategies
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col-lg-4 col-md-6" style="font-size: 15px;">
+          <div class="card border-success mb-5">
+            <div class="card-body">
+              <p class="card-text border-primary border-bottom py-2 fst-italic fw-light">“ Undoubtedly the best team to
+                learn all aspect of
+                trading from basic to advance level. All mentors are excellent in teaching and very knowledgeable in
+                their chosen area of expertise. Teaching is a passion to all mentors at TMP (Mr. Souradeep Dey, Mr
+                Chetan Pancamia, Mr Vivek Bajaj, Mr. Kaushik Akiwatkar & Mr. Saanando Das). Kudos to the team and bet
+                wishes for their mission for improving the financial literacy in India. “</p>
+              <div class="card-bottom position-relative pt-3">
+                <p class="mb-0">Prasanna Abbur</p>
+                <span class="stars position-absolute top-0 end-0 mt-4">
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                </span>
+                <a href="#" class="text-decoration-none text-dark ">
+                  <p style="font-size: 12px;" class="pt-1">
+                    Online Options Strategies
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" style="font-size: 15px;">
+          <div class="card border-success mb-5">
+            <div class="card-body">
+              <p class="card-text border-primary border-bottom py-2 fst-italic fw-light">“ This ELM course was well
+                thought out and
+                executed. My fondness for Options grew multifold after the course, and I have successfully applied my
+                knowledge in the market. I want to thank Chetan Sir for explaining every topic so beautifully. I would
+                also like to sincerely thank Sneha Ma'am for clearing up my concerns. “</p>
+              <div class="card-bottom position-relative pt-3">
+                <p class="mb-0">Sumit Ghuge</p>
+                <span class="stars position-absolute top-0 end-0 mt-4">
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                  <i class="fa-sharp fa-solid fa-star" style="color: #e4b50c;"></i>
+                </span>
+                <a href="#" class="text-decoration-none text-dark ">
+                  <p style="font-size: 12px;" class="pt-1">
+                    Online Options Strategies
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="text-center">
+        <a href="#" class="text-decoration-none text-dark d-inline-block">View More <p class="d-inline-block"><i
+              class="fa-sharp fa-solid fa-angles-right" style="color: #d4962b;"></i></p></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured">
+    <div class="container my-5 px-5">
+      <div class="text-center">
+        <h3 class="fw-bold mb-5">Featured In</h3>
+      </div>
+
+
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 justify-content-center">
+        <div class="col mb-4 text-center">
+          <img src="./Images/featured1.png" class="w-50" alt="f1">
+        </div>
+
+        <div class="col mb-4 text-center">
+          <img src="./Images/featured 2.png" class="w-50" alt="f1">
+        </div>
+
+        <div class="col mb-4 text-center">
+          <img src="./Images/featuredd 3.png" class="w-75" alt="f1">
+        </div>
+
+        <div class="col mb-4 text-center">
+          <img src="./Images/featured 4.png" class="w-75" alt="f1">
+        </div>
+
+        <div class="col mb-4 text-center">
+          <img src="./Images/featurd 5.png" alt="f1" style="width: 50%;">
+        </div>
+
+        <div class="col mb-4 text-center">
+          <img src="./Images/featured 6.png" alt="f1" styestyle="width: 50%;">
+        </div>
+
+        <div class="col mb-4 text-center">
+          <img src="./Images/featured 7.png" alt="f1" styestyle="width: 50%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer" class="border-top border-warning border-5" style="background-color:#062d69">
+    <div class="container px-5 mt-5">
+      <div class="row mx-0 justify-content-center">
+        <div class="col-xl-2 col-md-6 col-sm-12 mb-5 ps-0 d-none d-md-block">
+          <div class="">
+            <a href="#"><img src="./Images/logo2.png" alt="logo2" style="width: 45%;"></a>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-6 col-sm-12 mb-5 ps-0 d-md-none">
+          <div class="">
+            <img src="./Images/logo2.png" alt="logo2" style="width: 15%;">
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6 ps-0 mb-4 pe-0 text-white ">
+          <h6>COMPANY / OVERVIEW</h6>
+          <div class="d-inline-block my-3">
+            <ul class="ps-0" style="font-size: 14px;">
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">About Us</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">Term of Use</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">Contact</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">Privacy</a></li>
+            </ul>
+          </div>
+
+          <div class="d-inline-block ms-2">
+            <ul class="ps-0" style="font-size: 14px;">
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">Grievancae
+                  Redressal policy</a></li>
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">Student Ambassador
+                  Program</a></li>
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">Afiliate
+                  Program</a></li>
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">Become a
+                  Teacher</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4 pe-0 ps-0 text-white">
+          <h6>FEATURES</h6>
+          <div class="d-inline-block my-3">
+            <ul class="ps-0" style="font-size: 14px;">
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">Blog</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">Webinars</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">Courses</a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-muted">Plans</a></li>
+            </ul>
+          </div>
+
+          <div class="d-inline-block ms-2">
+            <ul class="ps-0" style="font-size: 14px;">
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">E-books</a></li>
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">Reviews</a></li>
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">Career</a></li>
+              <li class="list-unstyled mb-2 ms-3"><a href="#" class="text-decoration-none text-muted">Media Coverage</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-6 ps-0 text-white">
+          <h6>ADDRESS</h6>
+          <div class="d-inline-block my-3">
+            <ul class="ps-0" style="font-size: 14px;">
+              <li class="list-unstyled">
+                <p class="text-muted mb-1 w-100">J-1/14, Block - EP and GP, 9th Floor
+                  Sector V Saltlake City, Kolkata-700091, West bangal, India</p>
+              </li>
+              <li class="list-unstyled mb-1"><a href="#" class="text-decoration-none text-primary"> <i
+                    class="fa-solid fa-envelope me-2" style="color: #3c75d7;"></i> info@elearnmarkets.com
+                </a></li>
+              <li class="list-unstyled mb-2"><a href="#" class="text-decoration-none text-primary"> <i
+                    class="fa-solid fa-square-phone me-2" style="color: #3d75d6;"></i> +91-9051622255</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row justify-content-end d-xl-none pb-4">
+          <div class="col-lg-6 col-md-9 col-12 ">
+            <div class="text-center text-md-end">
+              <a href="#"><img src="./Images/facebook_icon.svg" alt="fb" class="me-2" style="width: 9%" ;></i></a>
+              <a href="#"><img src="./Images/instagram_icon.svg" alt="insta" class="me-2" style="width: 9%" ;></i></a>
+              <a href="#"><img src="./Images/twitter_icon.svg" alt="tweet" class="me-2" style="width: 9%" ;></i></a>
+              <a href="#"><img src="./Images/linkedin_icon.svg" alt="li" class="me-2" style="width: 9%" ;></i></a>
+              <a href="#"><img src="./Images/telegram_icon.svg" alt="te" class="me-2" style="width: 9%" ;></i></a>
+              <a href="#"><img src="./Images/youtube_icon.svg" alt="Yt" class="me-2" style="width: 9%" ;></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row border-top border-bottom border-light mb-3 py-3">
+          <div class="col d-none d-md-block">
+            <div class="text-center text-xl-start">
+              <a href="#"><img src="./Images/googleplay.svg" alt="fb" class="me-2" style="width: 18%" ;></i></a>
+              <a href="#"><img src="./Images/appstore_icon.svg" alt="insta" class="me-2" style="width: 18%" ;></i></a>
+            </div>
+          </div>
+          <div class="col d-md-none">
+            <div class="text-center text-xl-start">
+              <a href="#"><img src="./Images/googleplay.svg" alt="fb" class="me-2" style="width: 38%" ;></i></a>
+              <a href="#"><img src="./Images/appstore_icon.svg" alt="insta" class="me-2" style="width: 38%" ;></i></a>
+            </div>
+          </div>
+
+          <div class="col d-xl-block d-none">
+            <div class="text-xl-end">
+              <a href="#"><img src="./Images/facebook_icon.svg" alt="fb" class="me-2" style="width: 5%" ;></i></a>
+              <a href="#"><img src="./Images/instagram_icon.svg" alt="insta" class="me-2" style="width: 5%" ;></i></a>
+              <a href="#"><img src="./Images/twitter_icon.svg" alt="tweet" class="me-2" style="width: 5%" ;></i></a>
+              <a href="#"><img src="./Images/linkedin_icon.svg" alt="lin" class="me-2" style="width: 5%" ;></i></a>
+              <a href="#"><img src="./Images/telegram_icon.svg" alt="te" class="me-2" style="width: 5%" ;></i></a>
+              <a href="#"><img src="./Images/youtube_icon.svg" alt="YT" class="me-2" style="width: 5%" ;></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="text-muted my-1" style="font-size: 14px;">An Initiative of Kredent InfoEdge Pvt. Ltd. SEBI
+            Registration No. Research Analyst- INH300007493, Investment Advisor- INA000017781</p>
+
+          <p class="text-muted" style="font-size: 14px;"> Copyright © 2023 Elearnmarkets. All rights reserved</p>
+        </div>
+
+      </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

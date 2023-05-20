@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+form button {
+  position: relative;
+  right: 45px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: calc(1.035rem + 1.5vw);
+}
+
+.navbar-brand img {
+  width: 170px;
+}
+
+.carousel-item .img-fluid {
+  max-width: 35%;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.rounded-pill p {
+  font-size: 1.12rem;
+}
+
+#explore-categories .card {
+  border-radius: 25px;
+}
+
+#get-set-learn .border {
+  border-radius: 25px;
+}
+
+.cw-85 {
+  width: 90%;
+}
+
+#elm-school .card-body img {
+  width: 12%;
+}
+
+#success-stories .card {
+  border-radius: 25px;
+}
+
+.W {
+  width: 80%;
+}
+/* 
+.stars i {
+  width: 80%;
+} */
